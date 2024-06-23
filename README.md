@@ -1,6 +1,6 @@
 # Deep Reconstruction of Knee MRI Images
 
-![visualization_batch_0_rate_0 4](https://github.com/ahmadgh99/Deep-MRI/assets/61627067/5231a3c9-e2a1-449c-914d-f13fc4ce9342)
+![visualization_batch_0_rate_0 4](https://github.com/ahmadgh99/Deep-MRI/assets/61627067/2c5fede8-e2d9-4183-936d-24b42e537803)
 
 ## Project Description
 
