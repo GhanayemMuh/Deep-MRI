@@ -7,6 +7,7 @@ This project focuses on enhancing the quality and resolution of subsampled knee 
 ## Features
 
 - **Deep Learning Model:** Utilizes a U-Net architecture tailored for medical image reconstruction.
+- **Different Subsample Rates:** The ability to train the model on different subsample rates
 - **MRI Image Enhancement:** Significantly improves the quality of subsampled knee MRI images.
 - **Improved Diagnostics:** Provides clearer and more detailed images for better diagnosis.
 
@@ -41,6 +42,12 @@ This project focuses on enhancing the quality and resolution of subsampled knee 
         python main.py
         ```
 
+### Example Command
+
+```bash
+python main.py --data-path './dataset/fastmri_knee' --batch-size 64 --num-workers 8 --num-epochs 25 --results-root './results' --device cuda:0 --lr 0.001
+```
+
 ## Usage
 
 1. **Data Preparation:** The dataset is not included in this repository. Please download the FASTMRI Knee dataset from Facebook
@@ -68,3 +75,15 @@ parser.add_argument('--load-checkpoint', action='store_true', help='Load model f
 ## Results
 
 The reconstructed images show significant improvements in resolution and clarity, facilitating better diagnostic outcomes. Below are sample images comparing the original subsampled MRI and the reconstructed output.
+
+### Visualization of Results
+
+![visualization_batch_0_rate_0 6](https://github.com/ahmadgh99/Deep-MRI/assets/61627067/56ff6e4d-748d-42a0-a907-921af59a1970)
+
+### PSNR over Epochs
+
+![PSNR_train_val_rate_0 6](https://github.com/ahmadgh99/Deep-MRI/assets/61627067/d5bf76ce-2e95-4771-92f5-c0c4a0a89571)
+
+### Loss over Epochs
+
+![loss_over_epochs_rate_0 6](https://github.com/ahmadgh99/Deep-MRI/assets/61627067/c230f770-aad3-473c-abcf-8d5588155895)
