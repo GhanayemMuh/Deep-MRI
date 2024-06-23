@@ -1,5 +1,7 @@
 # Deep Reconstruction of Knee MRI Images
 
+![visualization_batch_0_rate_0 4](https://github.com/ahmadgh99/Deep-MRI/assets/61627067/5231a3c9-e2a1-449c-914d-f13fc4ce9342)
+
 ## Project Description
 
 This project focuses on enhancing the quality and resolution of subsampled knee MRI images using a deep neural network based on a U-Net architecture. The primary goal is to reconstruct high-quality MRI images from subsampled data, aiding in improved diagnostic accuracy.
